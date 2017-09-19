@@ -11,7 +11,7 @@ ReactDOM.render((
 <App /> 
 <Hello name="Bob"/>
 <Hello name=""/>
-<TextAeraCounter text="Bob" />
+<TextAeraCounter />
 </div>
 
 )
