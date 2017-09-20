@@ -14,6 +14,7 @@ ReactDOM.render((
 <Hello name=""/>
 <TextAeraCounter />
 <TodoList />
+<TodoList />
 </div>
 
 )
