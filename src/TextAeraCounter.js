@@ -28,8 +28,8 @@ class TextAeraCounter extends Component {
       <div className="TextAeraCounter">
       <form onSubmit={this.handleSubmit} >
         <label>Name:<br />
-          <textarea value={this.state.value} onInput={this.handleChange} />
-          {/* 在此強制綁定textarea的value為{this.state.value},FB建議寫法 */}
+          <textarea value={this.state.value} onChange={this.handleChange} />
+          {/* 在此強制綁定textarea的value為{this.state.value},FB建議寫法 onChange效果等同oninput*/}
         </label><br />
         <input type="submit" value="Submit" />
       </form>

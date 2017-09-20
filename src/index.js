@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Hello from './Hello';
 import TextAeraCounter from './TextAeraCounter';
+import TodoList from './TodoList';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render((
@@ -12,6 +13,7 @@ ReactDOM.render((
 <Hello name="Bob"/>
 <Hello name=""/>
 <TextAeraCounter />
+<TodoList />
 </div>
 
 )

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'; //輸入型別檢查1.55後獨立包成prop-types
 import './Hello.css';
 class Hello extends Component {
+
   render() {
     return (
           (this.props.name)?
@@ -8,5 +10,9 @@ class Hello extends Component {
     );
   }
 }
+
+Hello.propTypes = {//型別檢查 字串 必填
+  name: PropTypes.string.isRequired,
+};
 
 export default Hello;
