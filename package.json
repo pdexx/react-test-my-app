@@ -15,7 +15,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://pdexx.github.io/react-test-my-app/",
+  // "homepage": "https://pdexx.github.io/react-test-my-app/",
+  "homepage":"./",
   "devDependencies": {
     "gh-pages": "^1.0.0"
   }
