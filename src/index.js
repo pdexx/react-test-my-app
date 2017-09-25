@@ -6,6 +6,7 @@ import Hello from './Hello';
 import TextAeraCounter from './TextAeraCounter';
 import TodoList from './TodoList';
 import TodoApp from './TodoApp';
+import MyTestState from './MyTestState';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render((
@@ -15,11 +16,11 @@ ReactDOM.render((
 <Hello name=""/>
 <TextAeraCounter /> */}
 {/* <TodoList /> */}
-<TodoApp />
+{/* <TodoApp /> */}
+<MyTestState />
 </div>
 
 )
     
-    
-    , document.getElementById('root'));
+, document.getElementById('root'));
 registerServiceWorker();
