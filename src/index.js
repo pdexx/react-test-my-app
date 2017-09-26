@@ -16,7 +16,7 @@ ReactDOM.render((
 <Hello name="Mary"/>
 <TextAeraCounter />
 {/* <TodoList /> */}
-{/* <TodoApp /> */}
+<TodoApp />
 <MyTestState />
 </div>
 
