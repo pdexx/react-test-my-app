@@ -7,6 +7,7 @@ import TextAeraCounter from './TextAeraCounter';
 import TodoList from './TodoList';
 import TodoApp from './TodoApp';
 import MyTestState from './MyTestState';
+import Clock from './Clock'
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render((
@@ -18,6 +19,7 @@ ReactDOM.render((
 {/* <TodoList /> */}
 <TodoApp />
 <MyTestState />
+<Clock />
 </div>
 
 )
