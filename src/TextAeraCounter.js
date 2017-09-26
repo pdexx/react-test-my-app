@@ -8,16 +8,16 @@ class TextAeraCounter extends Component {
       value: ''
     };
 
-    this.handleChange = this.handleChange.bind(this); //this方法的綁定寫在constructor
-    this.handleSubmit = this.handleSubmit.bind(this);
+    //this.handleChange = this.handleChange.bind(this); //this方法的綁定寫在constructor
+    //this.handleSubmit = this.handleSubmit.bind(this); //也可使用肥箭頭
   }
 
-  handleChange(event) { /*<textarea value={this.state.value} onInput={this.handleChange} />
+  handleChange =(event)=>{ /*<textarea value={this.state.value} onInput={this.handleChange} />
   用onInput監聽textarea的改變一有改變立刻觸發*/
     this.setState({ value: event.target.value }); //輸入的值有改變時重新渲染組件
   }
 
-  handleSubmit(event) { /*將按鈕的預設值改為跳出alter原先的送出功能關掉 
+  handleSubmit =(event)=> { /*將按鈕的預設值改為跳出alter原先的送出功能關掉 
     用<form onSubmit={this.handleSubmit} >呼叫表單方法*/
     alert('An essay was submitted: ' + this.state.value);
     event.preventDefault();

@@ -12,9 +12,9 @@ import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render((
 <div>
 <App /> 
-{/* <Hello name="Bob"/>
-<Hello name=""/>
-<TextAeraCounter /> */}
+{/* <Hello name="Bob"/>*/}
+<Hello name="Mary"/>
+<TextAeraCounter />
 {/* <TodoList /> */}
 {/* <TodoApp /> */}
 <MyTestState />

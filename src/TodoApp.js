@@ -7,7 +7,7 @@ class TodoApp extends React.Component { // 定义组件，继承父类
     //TodoApp是UI,TodoHeader是input,TodoMain是input後的顯示結果,TodoItem是每個item的內容與核選
   constructor() {
     super()
-    this.state = {
+    this.state = { //初始化元件的起始狀態
       todos: []
     }
   }
