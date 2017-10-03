@@ -5,7 +5,9 @@ import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 //BS4 and reactstrap
 import 'bootstrap/dist/css/bootstrap.css';
-import { Container, Jumbotron, Button } from 'reactstrap';
+import {
+    Container, Jumbotron, Card, CardImg, CardText, CardTitle, CardSubtitle, CardBody, CardLink, Button, Row, Col
+} from 'reactstrap';
 //元件標頭載入MyData
 import MyData from './NameCardData';
 //此練習將資料與樣板分離 並用map使data驅動樣板
@@ -47,6 +49,7 @@ class NameCard extends React.Component {
                             <Button color="primary">Learn More</Button>
                         </p>
                     </Jumbotron>
+                    
                 </Container>
 
             </div>
